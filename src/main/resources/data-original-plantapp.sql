@@ -1,0 +1,11 @@
+INSERT INTO TIP_BILJKE (NAZIV) VALUES('Vodene biljke');
+INSERT INTO TIP_BILJKE (NAZIV) VALUES('Močvarne biljke');
+INSERT INTO TIP_BILJKE (NAZIV) VALUES('Biljke vlažnih staništa');
+INSERT INTO TIP_BILJKE (NAZIV) VALUES('Biljke suhih staništa');
+INSERT INTO TIP_BILJKE (NAZIV) VALUES('BIljke slanih područja');
+INSERT INTO TIP_BILJKE (NAZIV) VALUES('Biljke pješčanih područja');
+
+INSERT INTO BILJKA (NAZIV, CIJENA, TIP)
+        VALUES('Vodeni ljiljan', 10, 1);
+INSERT INTO BILJKA (NAZIV, CIJENA, TIP)
+        VALUES('Lopoč', 10, 1);

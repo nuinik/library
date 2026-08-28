@@ -1,0 +1,14 @@
+U IntelliJ razvojnom okruženju implementirajte servisni i "Repository" sloj
+aplikacije koji će upravljati životnim ciklusom entiteta država.
+
+Svaka država mora imati svoj identifikator, naziv, broj stanovnika i kontinent (koji može
+biti jedan od kontitenata te biti definiran kao zasebni entitet).
+
+Potrebno je kreirati klase koje predstavljaju entitete "Drzava" i "Kontinent" korištenjem
+pripadajućih "mapping" klasa, servisnih klasa i "Repository" klasa.
+
+Aplikacija mora koristiti bazu podataka te radne okvire Hibernate i Spring Data JPA.
+Ispravno funkcioniranje servisnog sloja aplikacije potrebno je provjeriti korištenjem jUnit
+testova.
+
+Testiraje i utvrdite ispravno funkcioniranje aplikacije.

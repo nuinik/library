@@ -1,0 +1,11 @@
+Kreirati Spring Boot aplikaciju koja će sadržavati sljedeće značajke:
+o Arhitektura aplikacija mora biti podijeljena na tri sloja: „controller“, „service“ i „repository“ sloj.
+o Kreirati „Controller“ klase koje će implementirati REST API sučelje i omogućavati dohvat svih entiteta, dohvat
+    jednog prema jedinstvenom identifikatoru, za sva tri entiteta: Polaznik, Upis i ProgramObrazovanja.
+o Za implementirane „Controller“ klase implementirati „Service“ sloj aplikaciju te „Repository“ sloj aplikacije.
+o Implementirati validacije koje će osigurati da se mogu spremati samo ispravni podaci.
+o „Repository“ sloj mora biti implementiran korištenjem JdbcTemplate sučelja i Spring Data JPA radnog okvira
+    temeljen na radnom okviru Hibernate.
+o Implementirati sigurnosne aspekte autentifikacije i autorizacije temeljene na JWT tokenima i radnom okviru Spring Security.
+o Kreirati jUnit i integracijske testove za implementirane „Controller“ metode.
+o Postaviti izvršnu inačicu implementirane Java web aplikacije na Docker image okolinu.

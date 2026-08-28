@@ -1,0 +1,22 @@
+Kreirajte novi Java projekt u IntelliJ okruženju i riješite sljedeći zadatak.
+
+Napravite klasu Ucenik koja ima sljedeće privatne atribute:
+ime (tipa String)
+prezime (tipa String)
+ocjene (tipa int[], polje cijelih brojeva duljine 3 koje sadrži 3 ocjene učenika:
+matematiku, hrvatski i engleski).
+
+Implementirajte gettere i settere za sve atribute.
+
+Kreirajte konstruktor koji stvara novog učenika, koji ima zadano ime i prezime, ali još
+nema ocjena.
+
+Dodajte sljedeće metode u klasu:
+izracunajProsjek() - vraća prosječnu ocjenu učenika kao double.
+prikaziPodatke() - ispisuje ime, prezime i prosječnu ocjenu učenika na konzolu.
+
+Zahtjevi:
+• Kreirajte u metodi main() polje od 3 učenika.
+• Tražite od korisnika unos imena, prezimena i ocjena.
+• Nakon toga, ispisati podatke i prosječnu ocjenu za svakog učenika koristeći metodu
+prikaziPodatke(.)

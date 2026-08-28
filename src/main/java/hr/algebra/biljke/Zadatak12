@@ -1,0 +1,18 @@
+U IntelliJ razvojnom okruženju implementirajte servisni i "Repository" sloj
+aplikacije (sloj pristupa podacima) koji će upravljati životnim ciklusom entiteta
+biljaka.
+
+Svaka biljka mora imati svoj identifikator, naziv, cijenu i tip biljke (koja može biti voće,
+povrće i ukras te biti definiran kao zasebni entitet).
+
+Potrebno je kreirati klase koje predstavljaju entitete "Biljka" i "TipBiljke" korištenjem
+pripadajućih "mapping" klasa, servisnih klasa i "Repository" klasa. Tablice u bazi
+podataka "Biljka" i "TipBiljke" moraju biti povezani "1:N" vezom, odnosno omogućiti da
+se isti tip biljke može dodijeliti više različitih biljaka.
+
+Aplikacija mora koristiti bazu podataka te radne okvire Hibernate i Spring Data JPA.
+
+Ispravno funkcioniranje servisnog sloja aplikacije potrebno je provjeriti korištenjem jUnit
+testova.
+
+Testirajte i utvrdite ispravno funkcioniranje aplikacije.

@@ -1,0 +1,15 @@
+U IntelliJ razvojnom okruženju razvijte aplikaciju temeljenu na radnom okviru
+Spring koja će sadržavati GET, POST, PUT i DELETE metode za upravljanje
+podacima o biljkama.
+
+Svaka biljka mora imati svoj identifikator, naziv, cijenu i tip biljke (koja može biti voće,
+povrće i ukras te biti definiran kao zasebni entitet).
+
+Metode iz "Controller" klase moraju vraćati "DTO" i "ResponseEntity" objekte.
+Aplikacija mora koristiti implementirati sigurnosne aspekte autorizacije putem JWT
+tokena (access i refresh token) te imati barem dvije role korisnika (admin i user).
+
+Također je potrebno definirati Dockerfile datoteku i prilagoditi konfiguraciju projekta
+kako bi se mogla izvoditi u Docker okruženju.
+
+Testirajte i utvrdite ispravno funkcioniranje aplikacije.
